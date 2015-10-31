@@ -1,0 +1,271 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;\red109\green109\blue109;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+{\info
+{\title Apache Hadoop (MapReduce) Internals - Diagrams \'b7 Hadoop Internals}}\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa321
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Hadoop Internals\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\b0\fs24 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Home}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/HadoopArchitectureOverview.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Architecture Overview}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/AnatomyMapReduceJob.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Anatomy of a MapReduce Job}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 It\'92s\cf2 \expnd0\expndtw0\kerning0
+\ulnone \outl0\strokewidth0 \strokec2 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/JobSubmitter.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Job Submitter}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/NodeManager.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Node Manager}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ResourceManager.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Resource Manager}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ApplicationMaster.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Application Master}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 The\cf2 \expnd0\expndtw0\kerning0
+\ulnone \outl0\strokewidth0 \strokec2 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/MapTask.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Map Task}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ReduceTask.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Reduce Task}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/MapReduceMerge.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Merger}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Index.html\cf2 \expnd0\expndtw0\kerning0
+\ulnone \outl0\strokewidth0 \strokec2 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Job.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Job}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Task.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Task}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/TaskAttempt.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Task Attempt}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Container.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Container}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Application.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Application}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 File, ffs\cf2 \expnd0\expndtw0\kerning0
+\ulnone \outl0\strokewidth0 \strokec2 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/AsyncDispatcher.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Async Dispatcher}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/LocalizedResource.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Localized Resource}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainerAllocator.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Container Allocator [AM]}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainerLauncher.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Container Launcher [AM]}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainersLauncher.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Containers Launcher [NM]}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/HadoopConfigurationParameters.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Configuration Parameters}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "https://sites.google.com/a/di.uniroma1.it/coppa/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 Emilio Coppa}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2  \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ercoppa [at] gmail [dot] com\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "https://github.com/ercoppa/HadoopDiagrams"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec3 GitHub project}}\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2  \
+\pard\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "https://github.com/ercoppa/HadoopInternals/"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+}}\pard\pardeftab720\sa321
+
+\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Apache Hadoop (MapReduce) Internals - Diagrams\
+\pard\pardeftab720
+
+\b0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\pardeftab720\sa240
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 This project contains several diagrams describing {\field{\*\fldinst{HYPERLINK "http://hadoop.apache.org/.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Apache Hadoop}} internals (2.3.0 or later). Even if these diagrams are NOT specified in any formal or unambiguous language (e.g., UML), they should be reasonably understandable (here some {\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/DiagramConventions.html"}}{\fldrslt 
+\b \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 diagram notation conventions}}) and useful for any person who want to grasp the main ideas behind Hadoop. Unfortunately, not all the internal details are covered by these diagrams. You are free to help :)\
+\uc0\u8232 \
+\pard\pardeftab720\qc
+{\field{\*\fldinst{HYPERLINK "https://www.slideshare.net/EmilioCoppa/hadoop-internals"}}{\fldrslt 
+\b \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Hadoop Internals (2.3.0 or later)}}
+\b \expnd0\expndtw0\kerning0
+\outl0\strokewidth0  
+\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 from {\field{\*\fldinst{HYPERLINK "http://www.slideshare.net/EmilioCoppa"}}{\fldrslt 
+\b \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Emilio Coppa}} \
+\pard\pardeftab720\sa240
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \uc0\u8232 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2080\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1460\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth2280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth2840\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc
+
+\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Actors\cell 
+\pard\intbl\itap1\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Tasks\cell 
+\pard\intbl\itap1\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Model of computation\cell 
+\pard\intbl\itap1\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Extra\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2080\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1460\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth2280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth2840\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/JobSubmitter.html"}}{\fldrslt 
+\b0 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Job Submitter}}
+\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/NodeManager.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Node Manager}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ResourceManager.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Resource Manager}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ApplicationMaster.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Application Master}}\
+\pard\intbl\itap1\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \cell 
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/MapTask.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Map Task}}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ReduceTask.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Reduce Task}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/MapReduceMerge.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Merger}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/MapReduceInput.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Input}}\
+\pard\intbl\itap1\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \cell 
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Job.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Job}}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Task.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Task}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/TaskAttempt.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Task Attempt}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Application.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Application}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/Container.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Container}}\cell 
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/AsyncDispatcher.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Async Dispatcher}}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/LocalizedResource.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Localized Resource}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainerAllocator.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Container Allocator [AM]}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainerLauncher.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Container Launcher [AM]}}\
+\pard\intbl\itap1\pardeftab720
+{\field{\*\fldinst{HYPERLINK "file:///Users/rob/just-some-tall-bloke.github.io/_site/ContainersLauncher.html"}}{\fldrslt \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 Containers Launcher [NM]}}\cell \lastrow\row
+}
