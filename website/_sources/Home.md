@@ -11,10 +11,10 @@ This project contains several diagrams describing [Apache Hadoop](http://hadoop.
 <table>
 <tr>
 
-<th>Actors</th>
-<th>Tasks</th>
-<th>Model of computation</th>
-<th>Extra</th>
+<th>It's</th>
+<th>Definitely</th>
+<th>That</th>
+<th>File</th>
 
 </tr>
 <tr>
